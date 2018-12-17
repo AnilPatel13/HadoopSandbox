@@ -1,0 +1,2 @@
+student = LOAD '/home/home/Desktop/data1.csv' USING PigStorage(',') as ( id:int, firstname:chararray, lastname:chararray, phone:chararray, city:chararray );
+dump student
